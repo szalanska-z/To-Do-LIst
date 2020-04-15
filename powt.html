@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Comic+Neue:400,700|Shadows+Into+Light&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<title>Document</title>
+	<style>
+		/* font-family: 'Bad Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+		*/
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			max-width: 640px;
+			margin: 0 auto;
+		}
+
+		div.wrapper {
+			position: relative;
+		}
+
+		img {
+			transform: rotate(180deg);
+			height: 400px;
+			width: 640px;
+		}
+
+		h1.header-main {
+			position: absolute;
+			top: 150px;
+			left: 200px;
+			text-align: center;
+			font-size: 60px;
+			font-family: 'Bad Script', cursive;
+		}
+
+		form input {
+			width: 100%;
+			height: 50px;
+			font-size: 30px;
+			border: 2px solid black;
+			font-family: 'Oswald', sans-serif;
+			letter-spacing: 1px;
+		}
+
+		button {
+			display: block;
+			font-size: 20px;
+			/* font-family: 'Comic Neue', cursive; */
+			font-family: 'Oswald', sans-serif;
+			background-color: rgb(218, 179, 197);
+			border: 2px solid black;
+			border-radius: 20px;
+			font-size: 24px;
+			text-transform: uppercase;
+			padding: 10px 20px;
+			width: 60%;
+			margin: 30px auto;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: black;
+			color: white;
+		}
+
+		input.search {
+			width: 100%;
+			height: 40px;
+			font-size: 30px;
+			border: 2px solid black;
+			font-family: 'Oswald', sans-serif;
+			letter-spacing: 1px;
+		}
+
+		ul li {
+			list-style: none;
+			font-family: 'Oswald', sans-serif;
+			font-size: 24px;
+			letter-spacing: 1px;
+		}
+
+		li:nth-of-type(1) {
+			margin-top: 20px;
+		}
+
+		h1 {
+			margin-top: 30px;
+			margin-bottom: 20px;
+			font-size: 30px;
+			font-family: 'Bad Script', cursive;
+			text-align: center;
+		}
+
+		label {
+			font-family: 'Oswald', sans-serif;
+			font-style: italic;
+		}
+
+		ul li.checked {
+			text-decoration: line-through;
+		}
+
+		footer {
+			margin-top: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<img src="flowers.jpg" alt="">
+		<h1 class="header-main">To Do List</h1>
+		<form action="">
+			<input type="text">
+			<button>Dodaj zadanie</button>
+		</form>
+		<button class="remove">Usuń wszystko</button>
+		<h1>Masz <span>0</span> rzeczy do zrobienia :</h1>
+		<input class="search" type="text">
+		<label for="">wyszukaj zadanie</label>
+		<ul></ul>
+		<footer></footer>
+		<script src="powt.js"></script>
+</body>
+
+</html>
