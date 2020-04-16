@@ -19,12 +19,15 @@ font-family: 'Shadows Into Light', cursive;
 		}
 
 		body {
-			max-width: 640px;
-			margin: 0 auto;
+			min-height: 100vh;
+			position: relative;
 		}
 
 		div.wrapper {
+			max-width: 640px;
+			margin: 0 auto;
 			position: relative;
+			padding-bottom: 100px;
 		}
 
 		img {
@@ -110,7 +113,17 @@ font-family: 'Shadows Into Light', cursive;
 		}
 
 		footer {
-			margin-top: 50px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			height: 50px;
+			width: 100%;
+			background-color: black;
+			font-family: 'Bad Script', cursive;
+			color: white;
+			text-align: center;
+			line-height: 50px;
+			font-size: 26px;
 		}
 	</style>
 </head>
@@ -128,8 +141,9 @@ font-family: 'Shadows Into Light', cursive;
 		<input class="search" type="text">
 		<label for="">wyszukaj zadanie</label>
 		<ul></ul>
-		<footer></footer>
-		<script src="powt.js"></script>
+	</div>
+	<footer>Żaneta Szałańska</footer>
+	<script src="powt.js"></script>
 </body>
 
 </html>
